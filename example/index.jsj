@@ -1,0 +1,14 @@
+Hello <?js write('world') ?>!
+12<?js var a = 'foobar', b=0 ?>34
+Hello <?js write(a) ?>!
+Hello <?= a ?>!
+
+Total: <?jsa // a for async, call done() when finished
+setTimeout(function() {
+  write("many");
+  b++;
+  done();
+}, 100);
+?> entries.
+
+The End.
